@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from modbus.modbus_tcp import ModbusTcp
-from modbus.exceptions import *
+from modbus_tcp.modbus_tcp import ModbusTcp
+from modbus_tcp.exceptions import *
 
 if __name__ == "__main__":
     try:
